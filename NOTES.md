@@ -655,7 +655,7 @@ No shortcuts, no skips — just brute force.
 
 # Week09 - Trees:
 
-# Week10 - Graphs:
+# Week10/11 - Graphs/Shortest Path Algorithm:
 
 ## Graph: 
 A graph is a data structure that specializes in relationships, as it easily conveys how data is connected.
@@ -697,12 +697,20 @@ Start at the starting vertex, add it to the hash table and queue, and start a lo
 ## Breadth-First Search vs. Depth-First search algorithms: 
 
 Breadth-first search traverses all the vertices closest to the starting vertex before moving farther away.
+
+- Needs a lot of memory 
+- We go down based on levels or layers 
+- Useful for discovering distances: count the number of layers you are away from a vertex 
+- Exponential complexity
+
 First-depth search immediately moves as far away from the starting vertex as it can. Only when the search hits a dead end does it return back to the starting vertex.
+- Helps you to reach leaves faster if you are interested in leaves
+- Good if you do not care about the order because it requires less memory
 
 Choosing BFS or DFS depends on whether we want to stay close to the starting vertex. 
 BFS is good for staying close while DFS is good for moving farther away quickly
 
-# Week11 - Shortest Path Algorithm:
+
 
 
 
