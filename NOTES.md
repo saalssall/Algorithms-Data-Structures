@@ -710,6 +710,34 @@ First-depth search immediately moves as far away from the starting vertex as it 
 Choosing BFS or DFS depends on whether we want to stay close to the starting vertex. 
 BFS is good for staying close while DFS is good for moving farther away quickly
 
+# Week12 - Complexity Theory:
+
+Focuses on the intrinsic nature of the problem and how hard it is
+In complexity theory, we make lots of simplifying assumptions that make our comparisons easier
+
+**Polynomial time** : P is the set of decision problems solvable in polynomial time.
+- It allows us to focus on the underlying problem instead of the specific of problems 
+- Polynomials are closed under multiplication 
+- P is considered the easy problem by complexity theorists 
+- P is problems you could solve in polynomial time
+
+**Nondeterministic polynomial time**: a set of problems where you can verify the answer in polynomial time
+
+Often in NP, we look for the witness not just the answer
+
+A witness is a solution to an optimization problem that proves you can achieve a certain cost or better.
+The decision problem version asks: "Can I do at least this good?" — which can be verified quickly if someone shows you a valid solution (the witness).
+This is the core idea of NP — you may not be able to find the solution quickly, but if someone gives you one, you can verify it quickly.
+
+The relationship between P and NP is suspected but not proven.
+Many problems seem to require exponential time to solve in the worst case — but no one has ever mathematically provedthat any of these problems can't be solved faster.
+Example — Factoring large numbers:
+Everyone believes there's no fast (polynomial time) algorithm for it
+It's the basis of modern encryption
+But no one has ever proved it's impossible
+This is why P vs NP remains one of the greatest unsolved problems in computer science — we strongly suspect P ≠ NP, but we can't prove it.
+
+**Reduction**: solving problems by transforming it into different type of problem
 
 
 
