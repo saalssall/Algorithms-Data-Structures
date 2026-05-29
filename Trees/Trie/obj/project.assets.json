@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/Trie.csproj",
+      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/Trie/Trie.csproj",
       "projectName": "Trie",
-      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/Trie.csproj",
+      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/Trie/Trie.csproj",
       "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trie/obj/",
+      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/Trie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"

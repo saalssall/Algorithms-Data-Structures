@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/BinarySearchTrees.csproj": {}
+    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/BinarySearchTrees/BinarySearchTrees.csproj": {}
   },
   "projects": {
-    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/BinarySearchTrees.csproj": {
+    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/BinarySearchTrees/BinarySearchTrees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/BinarySearchTrees.csproj",
+        "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/BinarySearchTrees/BinarySearchTrees.csproj",
         "projectName": "BinarySearchTrees",
-        "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/BinarySearchTrees.csproj",
+        "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/BinarySearchTrees/BinarySearchTrees.csproj",
         "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-        "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/BinarySearchTrees/obj/",
+        "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Trees/BinarySearchTrees/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"
