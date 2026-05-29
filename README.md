@@ -13,26 +13,73 @@ The goal of this repository is to:
 ## Topics Covered
 
 ### Algorithms
-- Sorting Algorithms
+
+#### Searching Algorithms
 - Linear Search
 - Binary Search
-- Substring Search (Naive, Heuristic, Sunday)
+- Jump Search
+
+#### Sorting Algorithms
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+
+#### Substring Search
+- Naive Substring Search
+- Boyer-Moore Algorithm
+- Sunday's Algorithm
+
+#### Graph Algorithms
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+- Dijkstra's Shortest Path Algorithm
+
+#### Dynamic Programming
+- Longest Increasing Subsequence (LIS)
+- Longest Common Subsequence (LCS)
+- Edit Distance
+- Fibonacci (Iterative & Memoization)
+- Heaps Algorithm
+- Priority Queue Algorithm
+
+#### Other Algorithms
+- Recursion Concepts
+- Memoization
 
 ### Data Structures
+
+#### Linear Data Structures
 - Arrays
 - Linked Lists
-- Double Linked Lists
+- Doubly Linked Lists
 - Stacks
 - Queues
-- Binary Search Trees
+
+#### Non-Linear Data Structures
+- Hash Tables
+- Binary Search Trees (BST)
+  - Insertion
+  - Deletion
+  - Searching
+  - Traversal (In-order, Pre-order, Post-order)
+- Trees
+  - Tree Traversal Algorithms
+- Tries
+  - Insert and Search Operations
 - Graphs
+  - Weighted Graphs
+  - Graph Representations
+- Heaps
+  - Min Heaps
+  - Max Heaps
+  - Priority Queues
 
 ### Complexity Analysis
 - Big-O Notation
-- Time Complexity
-- Space Complexity
-- Dynamic Programming
-- Recursion
+- Time Complexity Analysis
+- Space Complexity Analysis
 
 ## Technologies Used
 - **C#**
