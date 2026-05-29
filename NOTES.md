@@ -723,11 +723,14 @@ A specific type of binary tree and must follow two conditions:
 1. Heap condition: the value of each node must be greater than each of its descendants nodes
 2. Completeness: the tree must be complete
 
-## Min heap: each node must contain a smaller value than any of its descendants
-## Max heap: the value of each node must be greater than each of its descendants nodes
+## Min heap
+ Each node must contain a smaller value than any of its descendants
+## Max heap
+ The value of each node must be greater than each of its descendants nodes
 
-## Completeness of trees: all nodes exist. All of the nodes are there from left to right. However, the bottom row can have empty positions, as long as there aren’t any nodes to the right of these empty positions
-A heap’s last node is the rightmost node in its bottom level.
+## Completeness of trees
+- All nodes exist. All of the nodes are there from left to right. However, the bottom row can have empty positions, as long as there aren’t any nodes to the right of these empty positions 
+- A heap’s last node is the rightmost node in its bottom level.
 
 # Week12 - Complexity Theory:
 
