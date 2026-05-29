@@ -710,6 +710,25 @@ First-depth search immediately moves as far away from the starting vertex as it 
 Choosing BFS or DFS depends on whether we want to stay close to the starting vertex. 
 BFS is good for staying close while DFS is good for moving farther away quickly
 
+## Priority queue
+- Deletion and insertion are like classic queues, but insertions are similar to ordered arrays.
+- We always ensure the data remains sorted in a specific order when we insert data 
+- We always want to access the value with the greatest priority.
+
+## Binary heaps
+- A data structure that serves as a more efficient foundation for the priority queue 
+- Address the O(N) insertions problem caused by priority queues
+
+A specific type of binary tree and must follow two conditions:
+1. Heap condition: the value of each node must be greater than each of its descendants nodes
+2. Completeness: the tree must be complete
+
+## Min heap: each node must contain a smaller value than any of its descendants
+## Max heap: the value of each node must be greater than each of its descendants nodes
+
+## Completeness of trees: all nodes exist. All of the nodes are there from left to right. However, the bottom row can have empty positions, as long as there aren’t any nodes to the right of these empty positions
+A heap’s last node is the rightmost node in its bottom level.
+
 # Week12 - Complexity Theory:
 
 Focuses on the intrinsic nature of the problem and how hard it is
