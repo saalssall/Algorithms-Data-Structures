@@ -44,6 +44,24 @@ namespace Graphs
             Console.WriteLine($"Dallas -> Toronto: {dallas.AdjacentVertices[toronto]}");
             toronto.AddAdjacentVertex(dallas, 216);   // Toronto -> Dallas costs 216
            
+            Console.WriteLine("----------");
+            var atlanta = new City("Atlanta");
+            var boston = new City("Boston");
+            var chicago = new City("Chicago");
+            var denver = new City("Denver");
+            var elPaso = new City("El Paso");
+            
+            atlanta.AddRoute(boston, 100);
+            atlanta.AddRoute(denver, 160);
+            boston.AddRoute(chicago, 120);
+            boston.AddRoute(denver, 180);
+            chicago.AddRoute(elPaso, 80);
+            denver.AddRoute(chicago, 40);
+            denver.AddRoute(elPaso, 140);
+
+            //Getting the shortest path from Atlanta to El Paso
+            var path = Dijkstra.ShortestPath(atlanta, elPaso);
+            Console.WriteLine(string.Join(" -> ", path));
         }
     }
 }
