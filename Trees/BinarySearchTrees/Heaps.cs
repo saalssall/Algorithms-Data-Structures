@@ -32,4 +32,24 @@ public class Heap
 
         return data[^1];   // ^1 is C#'s index-from-end operator, equivalent to data[data.Count - 1]
     }
+    
+    // Returns the index of the left child of the node at the given index
+    private int LeftChildIndex(int index)
+    {
+        return (index * 2) + 1;
+    }
+
+    // Returns the index of the right child of the node at the given index
+    private int RightChildIndex(int index)
+    {
+        return (index * 2) + 2;
+    }
+    // Accepts an index and calculates the index of its parent node.
+    private int ParentIndex(int index)
+    {
+        return (index - 1) / 2;
+    }
+    
+    
+    
 }
