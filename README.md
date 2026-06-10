@@ -88,4 +88,4 @@ The goal of this repository is to:
 ## References
 - Wengrow, J. (2020). *A Common-Sense Guide to Data Structures and Algorithms*. 
   Pragmatic Bookshelf. 2nd Edition.
-- Lecture Notes. (2026). CAB301, Queensland University of Technology.
+- Costello, C., & McKague, M. (2026, Semester 1). CAB301 Algorithms and complexity: Week 1-12 [Lecture slides]. Canvas. https://www.canvas.qut.edu.au
